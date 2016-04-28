@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { selectBook } from '../actions/index';
-import { bindActionCreators} from 'redux'; //make sure it flows through all reducers
+import { bindActionCreators } from 'redux'; //make sure it flows through all reducers
 
 class BookList extends Component {
   renderList() {
